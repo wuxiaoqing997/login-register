@@ -1,0 +1,274 @@
+body{
+	padding:0; 
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+a{text-decoration: none;}
+input {
+	border-radius: 5px;
+	border:1px solid #727171;
+}
+#content{
+	margin-top:-20px;
+	background-color: #cd5e3c;
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+#main {
+	width: 800px;
+	height: 450px;
+	background-color: #c37854;
+	position: relative;
+	top: 100px;
+	left: 280px;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 2px rgba(1,1,1,0.2);
+}
+#left{
+	float: left;
+	margin-left: 100px;
+	margin-top: 140px;
+
+}
+#left button {
+	background-color: transparent;
+	border:4px solid #ffffff;
+	width: 150px;
+	height: 50px;
+	margin-left: 30px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+#left button a{
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+}
+#right{
+	float: right;
+	margin-right: 80px;
+	margin-top: 140px;
+}
+#right button {
+	background-color: transparent;
+	border:4px solid #ffffff;
+	width: 150px;
+	height: 50px;
+	margin-left: 60px;
+	border-radius: 20px;
+	margin-top: 12px;
+}
+#right button a{
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+}
+#back{
+	width: 300px;
+	height: 490px;
+	background-color: #ffffff;
+	top: 80px;
+	left: 320px;
+	position: absolute;
+	border-radius: 10px;
+	z-index: 1;
+}
+#login{
+	width: 300px;
+	height: 490px;
+	background-color: #ffffff;
+	display: block;
+	top: 80px;
+	left: 320px;
+	position: absolute;
+	border-radius: 10px;
+	z-index: 2;
+}
+#login h2 {
+	margin-left: 35%;
+	margin-top: 35%;
+	letter-spacing: 2px;
+}
+#login_name input{
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 30px;
+	position: relative;
+	width: 210px;
+	line-height: 26;
+	padding: 2px;
+	font-size: 16px;
+}
+#login_name label {
+	position: absolute;
+	top: 162px;
+	left: 35px;
+	display: block;
+	background-color: #ffffff;
+	width: 155px;
+	height: 20px;
+	text-align: center;
+	color:#727171;
+}
+#login_pwd input{
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 30px;
+	position: relative;
+	width: 210px;
+	line-height: 26;
+	padding: 2px;
+	font-size: 16px;
+}
+#login_pwd label {
+	position: absolute;
+	top: 230px;
+	left: 35px;
+	display: block;
+	background-color: #ffffff;
+	width: 90px;
+	height: 20px;
+	text-align: center;
+	color:#727171;
+}
+#submite {
+	margin-top: 30px;
+	margin-left: 60px;
+	width: 160px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: #cd5e3c;
+	border:1px solid #cd5e3c;
+}
+#submite a{
+	width: 160px;
+	height: 35px;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+#register{
+	width: 300px;
+	height: 490px;
+	background-color: #ffffff;
+	display: block;
+	top: 80px;
+	left: 320px;
+	position: absolute;
+	border-radius: 10px;
+	z-index: 1;
+}
+#register h2 {
+	margin-left: 30%;
+	margin-top: 15%;
+	letter-spacing: 2px;
+}
+#register_name input{
+	margin-top: 10px;
+	margin-left: 30px;
+	height: 30px;
+	position: relative;
+	width: 210px;
+	line-height: 26;
+	padding: 2px;
+	font-size: 16px;
+}
+#register_name label {
+	position: absolute;
+	top: 95px;
+	left: 35px;
+	display: block;
+	background-color: #ffffff;
+	width: 90px;
+	height: 20px;
+	text-align: center;
+	color:#727171;
+}
+#re_mail input{
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 30px;
+	position: relative;
+	width: 210px;
+	line-height: 26;
+	padding: 2px;
+	font-size: 16px;
+}
+#re_mail label {
+	position: absolute;
+	top: 150px;
+	left: 35px;
+	display: block;
+	background-color: #ffffff;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	color:#727171;
+}
+#re_name input{
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 30px;
+	position: relative;
+	width: 210px;
+	line-height: 26;
+	padding: 2px;
+	font-size: 16px;
+}
+#re_name label {
+	position: absolute;
+	top: 205px;
+	left: 35px;
+	display: block;
+	background-color: #ffffff;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	color:#727171;
+}
+#re_pwd input{
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 30px;
+	position: relative;
+	width: 210px;
+	line-height: 26;
+	padding: 2px;
+	font-size: 16px;
+}
+#re_pwd label {
+	position: absolute;
+	top: 262px;
+	left: 35px;
+	display: block;
+	background-color: #ffffff;
+	width: 90px;
+	height: 20px;
+	text-align: center;
+	color:#727171;
+}
+#register_button {
+	margin-top: 30px;
+	margin-left: 60px;
+	width: 160px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: #e6b422;
+	border:1px solid #e6b422;
+}
+#register_button a{
+	width: 160px;
+	height: 35px;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
